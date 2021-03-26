@@ -73,7 +73,7 @@ body{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-image: url("image/Team.jpeg");
+    background-image: url("image/Team.JPEG");
     background-size: cover;
 }
 
@@ -231,8 +231,119 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
+@media screen and (min-width: 860px){
+    .header{
+        flex-direction: row;
+        position: fixed;
+    }
+
+    .list a{
+        font-size: 20px;
+    }
+
+    .nameHeader a{
+        font-size: 30px;
+    }
+
+    .nameHeader{
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .name{
+        margin-bottom: 100px;
+        margin-top: 60px;
+    }
+
+    .name h1{
+        font-size: 70px;
+    }
+
+    .profil{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .profil img{
+        width: 180px;
+    }
+
+    .personal-data{
+        margin-left: 25px;
+        margin-right: 25px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .vertical{
+        border: 1px solid black;
+        width: 0px;
+        height: 100px;
+        margin-left: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .container-data{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .skills{
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 0px;
+    }
+    .html{
+        width: 200px;
+    }
+    .php{
+        width: 200px;
+    }
+    .javascript{
+        width: 200px;
+    }
+    .python{
+        width: 200px;
+    }
+
+    .experience{
+        padding: 10px;
+        margin-right: 25px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .experience td{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .vertical2{
+        border: 1px solid black;
+        width: 0;
+        height: 220px;
+        margin-left: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .job1{
+        flex: 2;
+        margin-top: 0px;
+        padding-left: 20px;
+    }
+
+    .job2{
+        flex: 2;
+        margin-top: 0px;
+        padding-left: 20px;
+    }
+}
+
 /* Desktop Mode */
-@media screen and (min-width: 1105px){
+@media screen and (min-width: 1100px){
     .header{
         flex-direction: row;
         position: fixed;
@@ -310,6 +421,7 @@ body{
 
     .experience{
         padding: 10px;
+        width: 2000px;
         margin-right: 100px;
         margin-left: 0px;
         display: flex;
@@ -342,36 +454,3 @@ body{
         padding-left: 20px;
     }
 }
-
-@media screen and (max-width: 260px){
-    .profil{
-        margin-top: -170px;
-    }
-    
-    .header-list{
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-right: 5px;
-    }
-
-    .nameHeader{
-        padding-bottom: 5px;
-    }
-
-    .nameHeader a{
-        font-size: 11px;
-    }
-
-    .list a{
-        font-size: 11px;
-        padding-left: 5px;
-    }
-
-    .name h1{
-        font-size: 10px;
-        padding-bottom: 100px;
-    }
-
-
-}
-
