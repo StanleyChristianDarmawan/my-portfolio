@@ -10,7 +10,8 @@ body{
     width: 100%;
     padding-top: 10px;
     background-color: rgb(56, 183, 233);
-    box-shadow: 0 4px 8px 0  rgba(0, 0, 0, 0.2);
+/*     box-shadow: 0 4px 8px 0  rgba(0, 0, 0, 0.2); */
+    background-color: "blue";
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -235,6 +236,7 @@ body{
     .header{
         flex-direction: row;
         position: fixed;
+        background-color: "yellow";
     }
 
     .list a{
@@ -347,6 +349,7 @@ body{
     .header{
         flex-direction: row;
         position: fixed;
+        background-color: "red";
     }
 
     .list a{
